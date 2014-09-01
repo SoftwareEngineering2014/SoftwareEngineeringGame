@@ -6,6 +6,8 @@ public class GamePlay {
 		Player a = new Player("Joe");
 		a.dispName();
 		greetPlayer(a);
+		
+		System.out.println("Test 1");
 	}
 	
 	public static void greetPlayer(Player p){
