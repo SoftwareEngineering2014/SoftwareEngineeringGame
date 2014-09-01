@@ -15,6 +15,7 @@ public class Player {
 	public void dispName(){
 		String out = String.format("<%s> Hello, my name is %s.", name, name);
 		System.out.println(out);
-		System.out.println("");
+		String out2 = String.format("<%s>I'm really excited to be in this game.", name);
+		System.out.println(out2);
 	}
 }
