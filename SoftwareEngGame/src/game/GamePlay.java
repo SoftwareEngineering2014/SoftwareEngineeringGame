@@ -1,11 +1,14 @@
 package game;
 
+import java.util.ArrayList;
+
 public class GamePlay {
 
+	public static ArrayList<String> playerNames = new ArrayList<String>();
+	
+	
 	public static void main(String [] args){
-		Player a = new Player("Joe");
-		a.dispName();
-		greetPlayer(a);
+		PlayerIO.getPlayers();
 	}
 	
 	public static void greetPlayer(Player p){
