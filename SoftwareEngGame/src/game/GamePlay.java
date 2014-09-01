@@ -9,6 +9,7 @@ public class GamePlay {
 		
 		System.out.println("Test 1");
 		System.out.println("Test 2");
+		System.out.println("Test 3");
 	}
 	
 	public static void greetPlayer(Player p){
